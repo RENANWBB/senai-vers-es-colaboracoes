@@ -2,9 +2,10 @@ let listaParticipantes = ["Helena","Chico","Beto"];
 let quantidadeParticipantes = listaParticipantes.length;
 let data = 16;
 let idade = 18;
+var nome = 'Renan';
 
 if (quantidadeParticipantes < 100) {
-    listaParticipantes.push("Renan");
+    listaParticipantes.push(nome);
 } else {
     console.log("Cadastro não permitido!");
 }
